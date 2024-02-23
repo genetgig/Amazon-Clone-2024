@@ -1,0 +1,35 @@
+.product__flaxed{
+    box-shadow: non;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    width: 100%;
+
+}
+.product__flaxed h3 {
+    padding: 20px 0;
+    font-weight: 700;
+}
+.product__flaxed .button{
+    display: block;
+    position: sticky;
+    width: 150px;
+    margin-right: 40px;
+}
+.product__flaxed img{
+    width: 300px !important;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .product__flaxed{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
+
+
+
+

@@ -1,0 +1,13 @@
+.cart_container img{
+width: 120px !important;
+}
+.cart_container{
+    justify-content: center;
+}
+.btn{
+    padding: 5px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}

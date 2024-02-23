@@ -1,0 +1,42 @@
+.flex{
+display: flex;
+gap:5%;
+padding: 30px;
+width: 40%;
+}
+
+.flex h3{
+    min-width: 100%;
+}
+
+.flex img{
+    width: 80px !important;
+}
+.flex div{
+    height: auto !important;
+}
+.Payment__card__container{
+max-width: 350px;
+width: 100%;
+}
+/* .payment__details{
+    font-size: 20px;
+} */
+.payment__price > div{
+    display: flex;
+    font-size: 16px;
+    gap: 10px;
+}
+.payment__details button{
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    
+}
+
+@media screen and (max-width: 768px){
+    .flex {
+        flex-direction: column;
+        width: 100%;
+    }
+}
